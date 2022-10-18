@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <parameter name ="browser" value ="chrome"></parameter>
+ 
+<parameter name ="email" value ="admin45@gmail.com"></parameter>
+<parameter name ="password" value ="admin354"></parameter>
+    <classes>
+    <class name="com.ppt.Parametrization"/>
+    
+      <class name="com.ppt.Login_test"/>
+      <class name="com.ppt.Demoweb_login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

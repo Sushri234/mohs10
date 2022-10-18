@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T14:15:17 IST" name="Suite" finished-at="2022-10-18T14:15:36 IST" duration-ms="18996">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T14:15:17 IST" name="Test" finished-at="2022-10-18T14:15:36 IST" duration-ms="18996">
+      <class name="com.ppt.Demoweb_login">
+        <test-method signature="Register_page()[pri:0, instance:com.ppt.Demoweb_login@18d87d80]" started-at="2022-10-18T14:15:27 IST" name="Register_page" finished-at="2022-10-18T14:15:36 IST" duration-ms="8686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_page -->
+      </class> <!-- com.ppt.Demoweb_login -->
+      <class name="com.ppt.Login_test">
+        <test-method signature="testlogin1()[pri:0, instance:com.ppt.Login_test@1af2d44a]" started-at="2022-10-18T14:15:27 IST" name="testlogin1" finished-at="2022-10-18T14:15:27 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin1 -->
+        <test-method signature="testlogin2()[pri:0, instance:com.ppt.Login_test@1af2d44a]" started-at="2022-10-18T14:15:27 IST" name="testlogin2" finished-at="2022-10-18T14:15:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin2 -->
+      </class> <!-- com.ppt.Login_test -->
+      <class name="com.ppt.Parametrization">
+        <test-method signature="Lunchurl_test(java.lang.String)[pri:1, instance:com.ppt.Parametrization@4d465b11]" started-at="2022-10-18T14:15:17 IST" name="Lunchurl_test" finished-at="2022-10-18T14:15:26 IST" duration-ms="9191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunchurl_test -->
+        <test-method signature="Login_test(java.lang.String,java.lang.String)[pri:2, instance:com.ppt.Parametrization@4d465b11]" started-at="2022-10-18T14:15:26 IST" name="Login_test" finished-at="2022-10-18T14:15:27 IST" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin354]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_test -->
+      </class> <!-- com.ppt.Parametrization -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
