@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Demoweb_login {
 
 	@Test
-	public void Register_page()throws InterruptedException
+	public void Register_page()
 	
 	{
 	WebDriverManager.chromedriver().setup();

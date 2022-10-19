@@ -10,6 +10,7 @@
     <class name="com.ppt.Parametrization"/>
     
       <class name="com.ppt.Login_test"/>
+       <class name="com.ppt.Googlemap"/>
       <class name="com.ppt.Demoweb_login"/>
     </classes>
   </test> <!-- Test -->

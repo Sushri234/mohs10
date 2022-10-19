@@ -6,11 +6,11 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="email" value="admin45@gmail.com"/>
     <classes>
-      <class name="com.ppt.Parametrization">
+      <class name="com.ppt.Googlemap">
         <methods>
-          <include name="Register_test" invocation-numbers="0"/>
+          <include name="Location_name"/>
         </methods>
-      </class> <!-- com.ppt.Parametrization -->
+      </class> <!-- com.ppt.Googlemap -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

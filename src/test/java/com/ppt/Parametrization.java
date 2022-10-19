@@ -31,7 +31,7 @@ WebDriver driver;
 	
 	
 	public void Login_test(String email,String password) {
-		//System.out.println("email:"+email +"and password:"+password);
+		System.out.println("email:"+email +"and password:"+password);
 		
 		driver.findElement(By.xpath("//a[@class=\"ico-login\"]")).click();
 		driver.findElement(By.id("Email")).sendKeys("admin45@gmail.com");

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ppt.Parametrization">
+      <class name="com.ppt.Googlemap">
         <methods>
-          <include name="Login_test"/>
-          <include name="Lunchurl_test"/>
+          <include name="Location_name"/>
         </methods>
-      </class> <!-- com.ppt.Parametrization -->
+      </class> <!-- com.ppt.Googlemap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
