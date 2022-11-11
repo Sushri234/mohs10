@@ -23,17 +23,13 @@ public class Googlemap {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"hArJGc\"]")).click();
 		//Thread.sleep(2000);
-	}
-	@Test(priority=2)
-	public void Location_name() throws InterruptedException
-	{
-		WebElement item=driver.findElement(By.xpath("//*[@id=\\\"sb_ifc51\\\"]/input"));
-		item.sendKeys("puri");
-		WebElement item2=driver.findElement(By.xpath("//*[@id=\\\"sb_ifc52\\\"]"));
-		item2.sendKeys("cuttuck");
 		
-		driver.findElement(By.xpath("//*[@id=\"directions-searchbox-1\"]/button[1]")).click();
-		
+		driver.findElement(By.xpath("(//input[@class=\"tactile-searchbox-input\"])[4]")).sendKeys("puri");
+		//item.sendKeys("puri");
+		driver.findElement(By.xpath("(//input[@class=\"tactile-searchbox-input\"])[5]")).sendKeys("cuttack");
+		//item2.sendKeys("cuttuck");
+		driver.findElement(By.xpath("(//button[@class=\"mL3xi\"])[3]")).click();
+	
 		Thread.sleep(2000);
 		
 		}

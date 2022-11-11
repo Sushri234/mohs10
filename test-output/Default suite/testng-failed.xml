@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ppt.Googlemap">
+      <class name="com.excel.Excelinput">
         <methods>
-          <include name="Location_name"/>
+          <include name="Fileupload2"/>
         </methods>
-      </class> <!-- com.ppt.Googlemap -->
+      </class> <!-- com.excel.Excelinput -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
