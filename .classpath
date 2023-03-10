@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -41,5 +35,7 @@
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/poi-3.17/poi-ooxml-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/sikulixsetup-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-server-4.7.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<parameter name ="browser" value ="chrome"></parameter>
   <test thread-count="5" name="Test">
-   <parameter name ="browser" value ="chrome"></parameter>
- 
-<parameter name ="email" value ="admin43@gmail.com"></parameter>
-<parameter name ="password" value ="admin54"></parameter>
-    <classes>
-    <class name="com.ppt.Parametrization"/>
-    
-      <class name="com.ppt.Login_test"/>
-       <class name="com.ppt.Googlemap"/>
-      <class name="com.ppt.Demoweb_login"/>
+  
+    <classes> <class name="com.ppt.Appium_Calculator"/>
+       <class name="com.ppt.Appium_CallCheckInMobile"/>
+       <class name="com.ppt.Appium_DragAndDrop"/>
+       <class name="com.ppt.Appium_SendSMS"/>
+       <class name="com.ppt.VerticalScrollingbar"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+       
+  </test>
+  </suite>
+  

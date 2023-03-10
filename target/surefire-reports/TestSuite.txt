@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 373.66 s <<< FAILURE! - in TestSuite
+main1(com.ppt.Appium_Calculator)  Time elapsed: 40.916 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d3c60c3-1f13-4533-8ab0-6a50a49cae25, findElement {using=id, value=com.miui.calculator:id/btn_8_s}]
+Capabilities {appium:appActivity: com.miui.calculator.cal.Cal..., appium:appPackage: com.miui.calculator, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.miui.calculator.cal.Cal..., appPackage: com.miui.calculator, automationName: Appium, deviceName: Android, platformName: android}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Y3, appium:deviceName: d8e807c9, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1520, appium:deviceUDID: d8e807c9, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 10, appium:statBarHeight: 55, appium:takesScreenshot: true, appium:viewportRect: {height: 1314, left: 0, top: 55, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 3d3c60c3-1f13-4533-8ab0-6a50a49cae25
+	at com.ppt.Appium_Calculator.main1(Appium_Calculator.java:30)
+
+main1(com.ppt.Appium_CallCheckInMobile)  Time elapsed: 57.357 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4d68fa8a-01c2-48b0-8c70-b452d96a9826, findElement {using=id, value=com.android.contacts:id/name}]
+Capabilities {appium:appActivity: com.android.phone.MiuiEmerg..., appium:appPackage: com.android.phone, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.phone.MiuiEmerg..., appPackage: com.android.phone, automationName: Appium, deviceName: Android, platformName: android}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Y3, appium:deviceName: d8e807c9, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1520, appium:deviceUDID: d8e807c9, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 10, appium:statBarHeight: 55, appium:takesScreenshot: true, appium:viewportRect: {height: 1314, left: 0, top: 55, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4d68fa8a-01c2-48b0-8c70-b452d96a9826
+	at com.ppt.Appium_CallCheckInMobile.main1(Appium_CallCheckInMobile.java:31)
+
+main1(com.ppt.Appium_SendSMS)  Time elapsed: 17.937 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b3226bd1-5da4-4c3e-b590-eff228df7289, findElement {using=id, value=com.android.mms:id/ignore}]
+Capabilities {appium:appActivity: com.android.mms.ui.MmsTabAc..., appium:appPackage: com.android.mms, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.mms.ui.MmsTabAc..., appPackage: com.android.mms, automationName: Appium, deviceName: Android, platformName: android}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Y3, appium:deviceName: d8e807c9, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1520, appium:deviceUDID: d8e807c9, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 10, appium:statBarHeight: 55, appium:takesScreenshot: true, appium:viewportRect: {height: 1314, left: 0, top: 55, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b3226bd1-5da4-4c3e-b590-eff228df7289
+	at com.ppt.Appium_SendSMS.main1(Appium_SendSMS.java:30)
+
+main1(com.ppt.VerticalScrollingbar)  Time elapsed: 6.223 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: 'app' option is required for reinstall 
+Host info: host: 'DESKTOP-7GC1PIP', ip: '192.168.1.103'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.touchboarder.androidapidemos.MainActivity, appium:appPackage=com.touchboarder.android.api.demos, appium:automationName=Appium, appium:deviceName=Android, platformName=ANDROID}], desiredCapabilities=Capabilities {appActivity: com.touchboarder.androidapi..., appPackage: com.touchboarder.android.ap..., automationName: Appium, deviceName: Android, platformName: ANDROID}}]
+Capabilities {appActivity: com.touchboarder.androidapi..., appPackage: com.touchboarder.android.ap..., automationName: Appium, deviceName: Android, platformName: ANDROID}
+	at com.ppt.VerticalScrollingbar.main1(VerticalScrollingbar.java:27)
+
