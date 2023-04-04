@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ppt.flipkart">
+      <class name="com.ppt.Appium_DragAndDrop">
         <methods>
           <include name="main1"/>
         </methods>
-      </class> <!-- com.ppt.flipkart -->
+      </class> <!-- com.ppt.Appium_DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

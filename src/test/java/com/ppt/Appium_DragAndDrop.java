@@ -31,8 +31,8 @@ public class Appium_DragAndDrop {
 		AndroidDriver driver = new AndroidDriver(url,dc);
 		Thread.sleep(3000);
 		driver.findElement(By.id("com.android.permissioncontroller:id/continue_button")).click();
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[2]")).click();
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[1]")).click();
+		//driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[1]")).click();
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]")).click();
 		WebElement source =driver.findElements(By.id("com.mobeta.android.demodslv:id/drag_handle")).get(2);
 		
 		

@@ -37,20 +37,20 @@ public class Appium_Calculator {
 		  WebElement equals=driver.findElement(By.id("com.miui.calculator:id/btn_equal_s"));
 		  equals.click(); 
 		  Thread.sleep(3000); 
-		  String results=driver.findElement(By.id("com.miui.calculator:id/result\r\n")).getText();
+		  String results=driver.findElement(By.id("com.miui.calculator:id/result")).getText();
 		  
 			
-			 if(results.equals("=13")) 
-			  { 
-			  System.out.println("result is pass");
-			  } 
-			  else 
-			  {
-			  System.out.println("result is fail"); 
-			  }
-			 
+		  if(results.equals("=13")) 
+		  { 
+		  System.out.println("result is pass");
+		  } 
+		  else 
+		  {
+		  System.out.println("result is fail"); 
+		  }
 		 
-		Thread.sleep(5000);
+	 
+	Thread.sleep(5000);
 		
 
 	}
